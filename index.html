@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sallyto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <div class="max-w-3xl mx-auto p-6">
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-bold">Le choix de Sallyto</h1>
+      <p class="text-gray-600 mt-2">Une histoire de Sallyto</p>
+    </header>
+
+    <section class="mb-10">
+        <button onclick="document.getElementById('background-music').play()" class="fixed top-4 right-4 bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded shadow">
+  🎵 Écouter la musique
+</button>
+
+<audio id="background-music" loop>
+  <source src="audio/musiqueSallyto.mp3" type="audio/mpeg">
+</audio>
+
+      <img src="images/Sallyto.jpg" alt="Photo de Sallyto" class="rounded-lg shadow-md mb-4">
+      <h2 class="text-2xl font-semibold mb-2">À propos de Sallyto</h2>
+      <p class="text-lg leading-relaxed">
+        [Texte biographique de ta sœur à coller ici...]
+      </p>
+    </section>
+<a href="galerie.html" class="inline-block mt-8 bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition">
+  📷 Voir la galerie photos
+</a>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-2">Le livre</h2>
+      <img src="images/couverture-livre.jpg" alt="Couverture du livre" class="w-64 mb-4">
+      <p class="text-lg leading-relaxed">
+        [Résumé du livre, extraits, informations de publication…]
+      </p>
+    </section>
+
+    <footer class="text-center text-sm text-gray-500 mt-12">
+      © 2025 -  Sallyto • Site créé par Samba
+    </footer>
+  </div>
+</body>
+</html>
